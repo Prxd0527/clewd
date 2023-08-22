@@ -2,7 +2,7 @@
  * PASTE YOUR COOKIE BETWEEN THE QUOTES
  * @preserve 
  */
-const Cookie = '';
+const Cookie = process.env.cookies;
 
 /**
 ## EXPERIMENTAL
@@ -76,7 +76,7 @@ const Settings = {
     StripHuman: false
 };
 
-const Ip = '127.0.0.1';
+const Ip = '0.0.0.0';
 const Port = 8444;
 
 /**
